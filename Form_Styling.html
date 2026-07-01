@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gym Membership Form</title>
+
+    <!-- Connects the CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Main form container -->
+    <div class="form-box">
+
+        <h2>Gym Membership Form</h2>
+
+        <form>
+
+            <!-- First text box -->
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname">
+
+            <!-- Second text box -->
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname">
+
+            <!-- Email input -->
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email">
+
+            <!-- Telephone input -->
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+
+            <!-- Dropdown menu -->
+            <label for="membership">Membership Type</label>
+            <select id="membership">
+                <option>Basic</option>
+                <option>Premium</option>
+                <option>Student</option>
+            </select>
+
+            <!-- Radio buttons -->
+            <label>Workout Time</label>
+
+            <input type="radio" id="morning" name="time">
+            <label for="morning">Morning</label>
+
+            <input type="radio" id="evening" name="time">
+            <label for="evening">Evening</label>
+
+            <!-- Checkboxes -->
+            <label>Extras</label>
+
+            <input type="checkbox" id="trainer">
+            <label for="trainer">Personal Trainer</label>
+
+            <input type="checkbox" id="classes">
+            <label for="classes">Group Classes</label>
+
+            <br><br>
+
+            <!-- Submit button -->
+            <input type="submit" value="Enter">
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
