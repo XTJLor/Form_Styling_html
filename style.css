@@ -1,0 +1,57 @@
+/* Center the form */
+.form-box {
+    width: 350px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/* Labels on their own lines */
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+/* Style inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Focus effect */
+input:focus,
+select:focus {
+    background-color: lightyellow;
+    border: 2px solid blue;
+    outline: none;
+}
+
+/* Remove one border side */
+#fname {
+    border-top: none;
+}
+
+/* Style dropdown */
+select {
+    background-color: navy;
+    color: white;
+}
+
+/* Submit button */
+input[type="submit"] {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+/* Space radio buttons and checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
